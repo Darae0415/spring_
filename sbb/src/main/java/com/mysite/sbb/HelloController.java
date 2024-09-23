@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HelloController {
     @GetMapping("/hello")
     @ResponseBody
+//    @ResponseBody : HTML의 있는 <body>안에 넣는 개념
     public String hello() {
-        return "Hello World11!";
+        return "<h1>Hello World~!!♬</h1>";
     }
 }
